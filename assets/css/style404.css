@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 body {
-  background: #5A657A;
-  color: white;
+  background: white;
+  color: #0563bb;
   font-family: "Roboto", sans-serif;
 }
 body h1 {
@@ -12,7 +12,7 @@ body p {
   line-height: 30px;
 }
 body a {
-  color: #FBD160;
+  color: #373838;
 }
 
 svg {
