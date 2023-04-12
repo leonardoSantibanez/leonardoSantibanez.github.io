@@ -224,7 +224,7 @@ class PHP_Email_Form {
       }
 
       // XMailer
-      $mail->XMailer = 'PHP Email Form (https://bootstrapmade.com/php-email-form/)';
+      //$mail->XMailer = 'PHP Email Form (https://bootstrapmade.com/php-email-form/)';
 
       $mail->send();
 
