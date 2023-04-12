@@ -31,10 +31,10 @@ class PHP_Email_Form {
   public $recaptcha_secret_key = false;
 
   public $error_msg = array(
-    'invalid_to_email' => 'Email to (receiving email address) is empty or invalid!',
-    'invalid_from_name' => 'From Name is empty!',
-    'invalid_from_email' => 'Email from: is empty or invalid!',
-    'invalid_subject' => 'Subject is too short or empty!',
+    'invalid_to_email' => 'Email a (direccion de email de recepcion) está vacio a es invalido!',
+    'invalid_from_name' => 'Su Nombre está vacío!',
+    'invalid_from_email' => 'Su email está vacío o no es válido!',
+    'invalid_subject' => 'Asunto es muy corto o está vacío!',
     'short' => 'is too short or empty!',
     'ajax_error' => 'Sorry, the request should be an Ajax POST',
     'invalid_attachment_extension' => 'File extension not allowed, please choose:',
