@@ -26,16 +26,16 @@
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   
   $contact->smtp = array(
-    'host' => 'smtp.zoho.com',
-    'username' => 'admin@leosantibanez.cl',
-    'password' => 'L23n1rd4.01',
-    'port' => '465'
+    'host' => 'imap.leosantibanez.cl',
+    'username' => 'leosanti@leosantibanez.cl',
+    'password' => '[RYe65b@M4kXp4',
+    'port' => '587'
   );
   
 
-  $contact->add_message( $_POST['name'], 'From');
+  $contact->add_message( $_POST['name'], 'De');
   $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
+  $contact->add_message( $_POST['message'], 'Mensaje', 10);
 
   echo $contact->send();
 ?>
